@@ -1,0 +1,32 @@
+{
+  "random_forest/random_cv": {
+    "accuracy": 0.8622,
+    "macro_f1": 0.8321,
+    "f1_per_class": {
+      "cereals": 0.9598,
+      "non_crop": 0.8499,
+      "oilseeds": 0.9645,
+      "other": 0.5545
+    }
+  },
+  "random_forest/spatial_cv": {
+    "accuracy": 0.8422,
+    "macro_f1": 0.8095,
+    "f1_per_class": {
+      "cereals": 0.9507,
+      "non_crop": 0.8291,
+      "oilseeds": 0.9645,
+      "other": 0.4937
+    }
+  },
+  "linear/spatial_cv": {
+    "accuracy": 0.8151,
+    "macro_f1": 0.7955,
+    "f1_per_class": {
+      "cereals": 0.9343,
+      "non_crop": 0.802,
+      "oilseeds": 0.94,
+      "other": 0.5058
+    }
+  }
+}

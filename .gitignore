@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Raw and processed data are re-downloadable; keep the repo small
+data/
+
+# Model checkpoints
+*.pt
+*.joblib

@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+geopandas
+rioxarray
+pystac-client
+planetary-computer
+odc-stac
+tqdm
+requests
+pytest
+# PyTorch: install separately so you can pick CPU or CUDA, see README
